@@ -1,0 +1,77 @@
+{
+  "program_electives": [
+    {
+      "course_code": "CS112",
+      "course_name": "Introduction to Programming Using Java",
+      "credits": 3,
+      "description": "CS/IS 112 is a course in programming computers using the Java programming language...",
+      "prerequisites": "Recommended Preparation: CS/IS 101 or equivalent",
+      "offered": "Course Typically Offered: Fall/Spring/Summer",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC (C-ID CS 112)",
+      "status": "Completed"
+    },
+    {
+      "course_code": "CS130",
+      "course_name": "Introduction to Algorithms",
+      "credits": 3,
+      "description": "CS/IS 130 is a course in programming, algorithm development and problem-solving using both object-oriented and structured approaches...",
+      "prerequisites": "Prerequisite: CS/IS 112 or equivalent",
+      "offered": "Course Typically Offered: Fall/Spring",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC",
+      "status": "Scheduled"
+    },
+    {
+      "course_code": "CS135",
+      "course_name": "Programming in C/C++",
+      "credits": 3,
+      "description": "CS/IS 135 is a course in programming using the C/C ++ languages, with uses in applications programming for real time...",
+      "prerequisites": "Prerequisite: CS/IS 112 or equivalent",
+      "offered": "Course Typically Offered: Winter/Spring/Summer/Fall",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC (C-ID CS 122)",
+      "status": "Completed"
+    },
+    {
+      "course_code": "CS137",
+      "course_name": "C++ and Advanced Topics",
+      "credits": 4,
+      "description": "CS/IS 137 prepares the student for C++ programming in the workplace and other real world environments...",
+      "prerequisites": "Prerequisite: CS/IS 135 or equivalent",
+      "offered": "Course Typically Offered: Fall (Every Other Year)",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC",
+      "status": "Scheduled"
+    },
+    {
+      "course_code": "CS139",
+      "course_name": "Java",
+      "credits": 3,
+      "description": "CS/IS 139 is a hands-on course where the student will be working with programs to develop a knowledge of Java concepts...",
+      "prerequisites": "Prerequisite: CS/IS 112 or equivalent",
+      "offered": "Course Typically Offered: Fall/Spring",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC",
+      "status": "Not Scheduled"
+    },
+    {
+      "course_code": "MATH103E",
+      "course_name": "Calculus and Analytic Geometry I",
+      "credits": 5,
+      "description": "MATH 103E is the first of a sequence of three courses combining the subject matter of analytic geometry and calculus. Functions and their graphs are studied with special attention to differentiation, limits, rules and integration using various techniques. The calculus of inverse functions and transcendental functions as well as applications of differentiation is also covered. Lecture 5 hours.",
+      "prerequisites": "Placement is based on academic background or satisfactory completion of MATH 110 or 110B.",
+      "offered": "Typically Offered: Winter/Spring/Summer/Fall",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID MATH 210)",
+      "status": "In Progress"
+    },
+    {
+      "course_code": "MATH104E",
+      "course_name": "Calculus and Analytic Geometry II",
+      "credits": 5,
+      "description": "MATH 104E is a study of techniques of integration, indeterminate forms, applications of integration, differential equations, the calculus of parametric equations, polar coordinates, and conic sections, and the study of infinite sequences and series. Lecture 5 hours",
+      "prerequisites": "MATH103E",
+      "offered": "Typically Offered: Winter/Spring/Summer/Fall",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID MATH 220)",
+      "status": "In Progress"
+    }
+  ],
+  "required_units": 17,
+  "program_elective_units": 20,
+  "general_elective_units": 23
+}

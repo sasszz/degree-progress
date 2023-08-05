@@ -1,0 +1,54 @@
+{
+  "required_courses": [
+    {
+      "course_code": "CS165",
+      "course_name": "Computer Architecture and Assembly Language",
+      "credits": 4,
+      "description": "CS/IS 165 introduces the student to computer architecture as well as the world of assembly language programming...",
+      "prerequisites": "Prerequisite: CS/IS 112 or equivalent",
+      "offered": "Course Typically Offered: Fall (Every Other Year)",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC (C-ID CS 142)",
+      "status": "In Progress"
+    },
+    {
+      "course_code": "CS166",
+      "course_name": "Advanced Computer Architecture and Assembly Language",
+      "credits": 3,
+      "description": "CS/IS 166 covers the extension of basic addressing concepts to more advanced address ability such as base register...",
+      "prerequisites": "Prerequisite: CS/IS 165 or equivalent",
+      "offered": "Course Typically Offered: Spring (Every Other Year)",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC",
+      "status": "Not Scheduled"
+    },
+    {
+      "course_code": "CS211",
+      "course_name": "Data Structures",
+      "credits": 4,
+      "description": "CS/IS 211 is designed to provide a thorough coverage of data structures with data abstraction applied to a broad spectrum...",
+      "prerequisites": "Prerequisite: CS/IS 135 or equivalent",
+      "offered": "Course Typically Offered: Fall (Every Other Year)",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC (C-ID CS 132)",
+      "status": "Scheduled"
+    },
+    {
+      "course_code": "CS212",
+      "course_name": "Advanced Data Structures",
+      "credits": 3,
+      "description": "CS/IS 212 is designed to provide a thorough coverage of data structures with data abstraction applied to a broad spectrum...",
+      "prerequisites": "Prerequisite: CS/IS 211 or equivalent",
+      "offered": "Course Typically Offered: Spring (Every Other Year)",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC",
+      "status": "Not Scheduled"
+    },
+    {
+      "course_code": "CS280",
+      "course_name": "Concepts of Programming Languages",
+      "credits": 3,
+      "description": "CS/IS 280 discusses issues in the design, implementation and use of high-level programming languages, historical background...",
+      "prerequisites": "Prerequisite: CS/IS 112 or equivalent. Recommended Preparation: CS/IS 135 or equivalent",
+      "offered": "Course Typically Offered: Spring (Every Other Year)",
+      "transfer_credit": "Transfer Credit: CSU, UC, USC",
+      "status": "Not Scheduled"
+    }
+  ]
+}
