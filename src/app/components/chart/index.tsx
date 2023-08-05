@@ -22,12 +22,12 @@ export const data = {
     {
       // Required
       backgroundColor: ["#4B0082", "#9370DB", "#E6E6FA", "#F2F2F2"],
-      data: [0, 3, 4, 10],
+      data: [0, 4, 4, 9],
     },
     {
       // Degree Electives
       backgroundColor: ["#5551FF", "#8A8AFF", "#C9C9FF", "#F2F2F2"],
-      data: [6, 10, 33, 67],
+      data: [6, 10, 7, 3],
     },
   ],
 };
@@ -60,7 +60,7 @@ export default function Chart() {
   };
 
   return (
-    <div className="">
+    <div className="p-8 m-8" style={{ width: "1500px", height: "600px" }}>
       <Doughnut data={data} options={donutOptions} />
     </div>
   );

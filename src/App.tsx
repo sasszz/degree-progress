@@ -5,10 +5,8 @@ import CourseList from "./app/components/course-list/index";
 
 function App() {
   return (
-    <div className="min-h-screen flex justify-center items-center">
-      <div style={{ width: "600px", height: "600px" }}>
-        <Chart />
-      </div>{" "}
+    <div className="min-h-screen flex justify-center items-center p-28">
+      <Chart />
       <CourseList />
     </div>
   );
