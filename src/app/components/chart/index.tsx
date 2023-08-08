@@ -10,10 +10,10 @@ import { Doughnut } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export const labels = [
-  "Completed",
-  "In Progress",
-  "Scheduled",
-  "Not Scheduled",
+  "✅ Completed",
+  "🔄 In Progress",
+  "📅 Scheduled",
+  "⏸️ Not Yet Scheduled",
 ];
 
 export const data = {
@@ -46,11 +46,13 @@ export default function Chart() {
               text: "Required",
               fillStyle: "#4B0082",
               strokeStyle: "#4B0082",
+              fontColor: "white",
             });
             labels.push({
               text: "Elective",
               fillStyle: "#5551FF",
               strokeStyle: "#5551FF",
+              fontColor: "white",
             });
             return labels;
           },
@@ -60,7 +62,13 @@ export default function Chart() {
   };
 
   return (
-    <div className="p-8 m-8" style={{ width: "1500px", height: "600px" }}>
+    <div className="m-8" style={{ width: "3000px" }}>
+      <h3 className="text-xl font-semibold text-white text-center">
+        A.S. Computer Science
+      </h3>
+      <h3 className="text-xl font-semibold text-white mb-8 text-center">
+        Degree Progress Chart
+      </h3>
       <Doughnut data={data} options={donutOptions} />
     </div>
   );

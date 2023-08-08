@@ -4,52 +4,52 @@
       "course_code": "CS112",
       "course_name": "Introduction to Programming Using Java",
       "credits": 3,
-      "description": "CS/IS 112 is a course in programming computers using the Java programming language...",
+      "description": "CS/IS 112 is a course in programming computers using the Java programming language, which includes defining the problem, flowcharting, writing, executing, and debugging application programs, and program documentation. Lecture 2 hours/ Laboratory 3 hours.",
       "prerequisites": "Recommended Preparation: CS/IS 101 or equivalent",
       "offered": "Course Typically Offered: Fall/Spring/Summer",
-      "transfer_credit": "Transfer Credit: CSU, UC, USC (C-ID CS 112)",
-      "status": "Completed"
+      "transfer_credit": "Transfer Credit: CSU, UC, USC (C-ID COMP 112)",
+      "status": "✅ Completed"
     },
     {
       "course_code": "CS130",
       "course_name": "Introduction to Algorithms",
       "credits": 3,
-      "description": "CS/IS 130 is a course in programming, algorithm development and problem-solving using both object-oriented and structured approaches...",
-      "prerequisites": "Prerequisite: CS/IS 112 or equivalent",
+      "description": "CS/IS 130 is a course in programming, algorithm development, and problem-solving using both object-oriented and structured approaches. It includes a study of syntax and data structures with applications in science, engineering, and industry. This course is suitable for students planning to transfer or those wishing to develop a marketable skill. Lecture 3 hours.",
+      "prerequisites": "CS/IS 112 or equivalent",
       "offered": "Course Typically Offered: Fall/Spring",
       "transfer_credit": "Transfer Credit: CSU, UC, USC",
-      "status": "Scheduled"
+      "status": "📅 Scheduled"
     },
     {
       "course_code": "CS135",
       "course_name": "Programming in C/C++",
       "credits": 3,
-      "description": "CS/IS 135 is a course in programming using the C/C ++ languages, with uses in applications programming for real time...",
-      "prerequisites": "Prerequisite: CS/IS 112 or equivalent",
+      "description": "CS/IS 135 is a course in programming using the C/C++ languages, with applications in real-time, business, and image processing systems, as well as systems programming. The course covers types, operators, control flow functions, object-oriented programming, classes, data abstraction, program structure, pointers, and arrays through programming assignments. Lecture 2 hours/Laboratory 3 hours.",
+      "prerequisites": "CS/IS 112 or equivalent",
       "offered": "Course Typically Offered: Winter/Spring/Summer/Fall",
       "transfer_credit": "Transfer Credit: CSU, UC, USC (C-ID CS 122)",
-      "status": "Completed"
+      "status": "✅ Completed"
     },
     {
       "course_code": "CS137",
       "course_name": "C++ and Advanced Topics",
       "credits": 4,
-      "description": "CS/IS 137 prepares the student for C++ programming in the workplace and other real world environments...",
-      "prerequisites": "Prerequisite: CS/IS 135 or equivalent",
+      "description": "CS/IS 137 prepares students for C++ programming in the workplace and other real-world environments. The course focuses on advanced object-oriented programming concepts needed for modern programs, as well as other advanced topics such as templates and generics, files and streams, and operator overloading. Students will have the opportunity to engage in advanced projects within the course's scope. Lecture/Demonstration 4 hours.",
+      "prerequisites": "CS/IS 135 or equivalent",
       "offered": "Course Typically Offered: Fall (Every Other Year)",
       "transfer_credit": "Transfer Credit: CSU, UC, USC",
-      "status": "Scheduled"
+      "status": "📅 Scheduled"
     },
     {
       "course_code": "CS139",
       "course_name": "Java",
       "credits": 3,
-      "description": "CS/IS 139 is a hands-on course where the student will be working with programs to develop a knowledge of Java concepts...",
-      "prerequisites": "Prerequisite: CS/IS 112 or equivalent",
+      "description": "CS/IS 139 is a hands-on course where students work with programs to develop a comprehensive understanding of Java concepts in an interactive environment. The course involves creating and testing stand-alone applications and network applets across various operating systems and hardware platforms. Lecture 2 hours/Laboratory 3 hours.",
+      "prerequisites": "CS/IS 112 or equivalent",
       "offered": "Course Typically Offered: Fall/Spring",
       "transfer_credit": "Transfer Credit: CSU, UC, USC",
-      "status": "Not Scheduled"
-    },
+      "status": "⏸️ Not Yet Scheduled"
+    },  
     {
       "course_code": "MATH103E",
       "course_name": "Calculus and Analytic Geometry I",
@@ -58,7 +58,7 @@
       "prerequisites": "Placement is based on academic background or satisfactory completion of MATH 110 or 110B.",
       "offered": "Typically Offered: Winter/Spring/Summer/Fall",
       "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID MATH 210)",
-      "status": "In Progress"
+      "status": "🔄 In Progress"
     },
     {
       "course_code": "MATH104E",
@@ -68,7 +68,7 @@
       "prerequisites": "MATH103E",
       "offered": "Typically Offered: Winter/Spring/Summer/Fall",
       "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID MATH 220)",
-      "status": "In Progress"
+      "status": "🔄 In Progress"
     }
   ],
   "required_units": 17,

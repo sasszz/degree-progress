@@ -9,9 +9,16 @@ const CourseList: React.FC = () => {
   const programElectives = electivecoursedata.program_electives; // Extracting program electives from the JSON data
 
   return (
-    <div className="">
-      <RequiredClassList courses={requiredCourses} title="Required Courses" />
-      <ElectiveClassList courses={programElectives} title="Program Electives" />
+    <div>
+      <div className="bg-[#4B0082] rounded">
+        <RequiredClassList courses={requiredCourses} title="Required Courses" />
+      </div>
+      <div className="bg-[#5551FF] rounded mt-4">
+        <ElectiveClassList
+          courses={programElectives}
+          title="Program Electives"
+        />
+      </div>
     </div>
   );
 };
