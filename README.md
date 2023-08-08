@@ -1,5 +1,8 @@
 # AS Computer Science Degree Progress
 
+## Deployed App
+[https://degree-progress-73f0c.web.app/](https://degree-progress-73f0c.web.app/)
+
 ## Technologies
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
