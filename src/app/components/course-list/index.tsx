@@ -1,17 +1,20 @@
-import React from "react";
 import ElectiveClassList from "../single-course/elective"; // Update the path accordingly
 import RequiredClassList from "../single-course/required"; // Update the path accordingly
 import electivecoursedata from "../../utils/class-data/elective.json";
 import requiredcoursedata from "../../utils/class-data/required.json";
-import {ElectiveCourse } from "../single-course/elective";
-import {RequiredCourse } from "../single-course/required";
+import { ElectiveCourse } from "../single-course/elective";
+import { RequiredCourse } from "../single-course/required";
 
-const CourseList: React.FC = () => {
+interface CourseListProps {
+  className?: string; // Define the className prop with optional string type
+}
+
+export default function CourseList({ className }: CourseListProps) {
   const requiredCourses: RequiredCourse[] = requiredcoursedata;
   const programElectives: ElectiveCourse[] = electivecoursedata;
 
   return (
-    <div>
+    <div className={`${className}`}>
       <div className="bg-[#4B0082] rounded">
         <RequiredClassList courses={requiredCourses} title="Required Courses" />
       </div>
@@ -24,5 +27,3 @@ const CourseList: React.FC = () => {
     </div>
   );
 };
-
-export default CourseList;

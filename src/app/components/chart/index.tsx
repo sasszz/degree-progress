@@ -9,6 +9,10 @@ import { Doughnut } from "react-chartjs-2";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
+interface ChartProps {
+  className?: string; // Define the className prop with optional string type
+}
+
 export const labels = [
   "✅ Completed",
   "🔄 In Progress",
@@ -32,7 +36,7 @@ export const data = {
   ],
 };
 
-export default function Chart() {
+export default function Chart({ className }: ChartProps) {
   const donutOptions: Partial<ChartOptions<"doughnut">> = {
     cutout: "50%",
     plugins: {
@@ -62,7 +66,7 @@ export default function Chart() {
   };
 
   return (
-    <div className="m-8" style={{ width: "3000px" }}>
+    <div className={`m-8 ${className}`}>
       <h3 className="text-xl font-semibold text-white text-center">
         A.S. Computer Science
       </h3>
