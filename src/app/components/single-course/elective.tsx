@@ -1,6 +1,13 @@
 // import data from "../../utils/class-data/data.json";
 import React from "react";
 
+enum CourseStatus {
+  Completed = "✅ Completed",
+  InProgress = "🔄 In Progress",
+  Scheduled = "📅 Scheduled",
+  NotYetScheduled = "⏸️ Not Yet Scheduled",
+}
+
 interface Course {
   course_code: string;
   course_name: string;
@@ -9,18 +16,14 @@ interface Course {
   prerequisites: string;
   offered: string;
   transfer_credit: string;
-  status:
-    | "✅ Completed"
-    | "🔄 In Progress"
-    | "📅 Scheduled"
-    | "⏸️ Not Yet Scheduled";
+  status: CourseStatus;
 }
 
-const statusColors: Record<Course["status"], string> = {
-  "✅ Completed": "bg-[#5551FF]",
-  "🔄 In Progress": "bg-[#8A8AFF]",
-  "📅 Scheduled": "bg-[#C9C9FF]",
-  "⏸️ Not Yet Scheduled": "bg-[#F2F2F2]",
+const statusColors: Record<CourseStatus, string> = {
+  [CourseStatus.Completed]: "bg-[#5551FF]",
+  [CourseStatus.InProgress]: "bg-[#8A8AFF]",
+  [CourseStatus.Scheduled]: "bg-[#C9C9FF]",
+  [CourseStatus.NotYetScheduled]: "bg-[#F2F2F2]",
 };
 
 interface SingleCourseProps {

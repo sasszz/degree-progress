@@ -8,7 +8,7 @@
       "prerequisites": "Recommended Preparation: CS/IS 101 or equivalent",
       "offered": "Course Typically Offered: Fall/Spring/Summer",
       "transfer_credit": "Transfer Credit: CSU, UC, USC (C-ID COMP 112)",
-      "status": "✅ Completed"
+      "status": "Completed"
     },
     {
       "course_code": "CS130",
@@ -18,7 +18,7 @@
       "prerequisites": "CS/IS 112 or equivalent",
       "offered": "Course Typically Offered: Fall/Spring",
       "transfer_credit": "Transfer Credit: CSU, UC, USC",
-      "status": "📅 Scheduled"
+      "status": "Scheduled"
     },
     {
       "course_code": "CS135",
@@ -28,7 +28,7 @@
       "prerequisites": "CS/IS 112 or equivalent",
       "offered": "Course Typically Offered: Winter/Spring/Summer/Fall",
       "transfer_credit": "Transfer Credit: CSU, UC, USC (C-ID CS 122)",
-      "status": "✅ Completed"
+      "status": "Completed"
     },
     {
       "course_code": "CS137",
@@ -38,7 +38,7 @@
       "prerequisites": "CS/IS 135 or equivalent",
       "offered": "Course Typically Offered: Fall (Every Other Year)",
       "transfer_credit": "Transfer Credit: CSU, UC, USC",
-      "status": "📅 Scheduled"
+      "status": "Scheduled"
     },
     {
       "course_code": "CS139",
@@ -48,8 +48,8 @@
       "prerequisites": "CS/IS 112 or equivalent",
       "offered": "Course Typically Offered: Fall/Spring",
       "transfer_credit": "Transfer Credit: CSU, UC, USC",
-      "status": "⏸️ Not Yet Scheduled"
-    },  
+      "status": "NotYetScheduled"
+    },
     {
       "course_code": "MATH103E",
       "course_name": "Calculus and Analytic Geometry I",
@@ -58,7 +58,7 @@
       "prerequisites": "Placement is based on academic background or satisfactory completion of MATH 110 or 110B.",
       "offered": "Typically Offered: Winter/Spring/Summer/Fall",
       "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID MATH 210)",
-      "status": "🔄 In Progress"
+      "status": "InProgress"
     },
     {
       "course_code": "MATH104E",
@@ -68,7 +68,7 @@
       "prerequisites": "MATH103E",
       "offered": "Typically Offered: Winter/Spring/Summer/Fall",
       "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID MATH 220)",
-      "status": "🔄 In Progress"
+      "status": "InProgress"
     }
   ],
   "required_units": 17,
