@@ -1,5 +1,4 @@
-{
-  "program_electives": [
+[
     {
       "course_code": "CS112",
       "course_name": "Introduction to Programming Using Java",
@@ -48,7 +47,7 @@
       "prerequisites": "CS/IS 112 or equivalent",
       "offered": "Course Typically Offered: Fall/Spring",
       "transfer_credit": "Transfer Credit: CSU, UC, USC",
-      "status": "NotYetScheduled"
+      "status": "Not Yet Scheduled"
     },
     {
       "course_code": "MATH103E",
@@ -58,7 +57,7 @@
       "prerequisites": "Placement is based on academic background or satisfactory completion of MATH 110 or 110B.",
       "offered": "Typically Offered: Winter/Spring/Summer/Fall",
       "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID MATH 210)",
-      "status": "InProgress"
+      "status": "In Progress"
     },
     {
       "course_code": "MATH104E",
@@ -68,10 +67,6 @@
       "prerequisites": "MATH103E",
       "offered": "Typically Offered: Winter/Spring/Summer/Fall",
       "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID MATH 220)",
-      "status": "InProgress"
+      "status": "In Progress"
     }
-  ],
-  "required_units": 17,
-  "program_elective_units": 20,
-  "general_elective_units": 23
-}
+  ]

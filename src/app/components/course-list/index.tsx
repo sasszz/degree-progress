@@ -3,10 +3,12 @@ import ElectiveClassList from "../single-course/elective"; // Update the path ac
 import RequiredClassList from "../single-course/required"; // Update the path accordingly
 import electivecoursedata from "../../utils/class-data/elective.json";
 import requiredcoursedata from "../../utils/class-data/required.json";
+import {ElectiveCourse } from "../single-course/elective";
+import {RequiredCourse } from "../single-course/required";
 
 const CourseList: React.FC = () => {
-  const requiredCourses = requiredcoursedata.required_courses; // Extracting required courses from the JSON data
-  const programElectives = electivecoursedata.program_electives; // Extracting program electives from the JSON data
+  const requiredCourses: RequiredCourse[] = requiredcoursedata;
+  const programElectives: ElectiveCourse[] = electivecoursedata;
 
   return (
     <div>
