@@ -7,7 +7,7 @@
     "prerequisites": "Prerequisite: CS/IS 112 or equivalent.",
     "offered": "Course Typically Offered: Fall (Every Other Year).",
     "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID CS 142).",
-    "status": "In Progress"
+    "status": "Completed"
   },
   {
     "course_code": "CS166",
@@ -48,5 +48,5 @@
     "offered": "Course Typically Offered: Spring (Every Other Year).",
     "transfer_credit": "Transfer Credit: CSU, UC, USC.",
     "status": "Not Yet Scheduled"
-  }  
+  }
 ]
