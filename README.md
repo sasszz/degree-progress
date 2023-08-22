@@ -17,6 +17,15 @@ npm install
 npm run dev
 ```
 
+## Deployment
+```
+firebase login
+npm run build
+firebase init
+-> select dist as build folder
+firebase deploy
+```
+
 ## Demo
 https://github.com/sasszz/degree-progress/assets/95937955/79c971ba-3e82-4243-891c-4ae79a76859d
 
