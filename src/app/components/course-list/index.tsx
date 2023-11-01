@@ -6,7 +6,7 @@ import { ElectiveCourse } from "../single-course/elective";
 import { RequiredCourse } from "../single-course/required";
 
 interface CourseListProps {
-  className?: string; // Define the className prop with optional string type
+  className?: string;
 }
 
 export default function CourseList({ className }: CourseListProps) {
@@ -26,4 +26,4 @@ export default function CourseList({ className }: CourseListProps) {
       </div>
     </div>
   );
-};
+}

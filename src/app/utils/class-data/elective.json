@@ -20,6 +20,26 @@
     "status": "In Progress"
   },
   {
+    "course_code": "CS151",
+    "course_name": "Python Programming",
+    "credits": 3,
+    "description": "CS/IS 151 is a programming course in Python designed for individuals interested in becoming programmers or those with a curiosity for graphics and Graphical User Interface (GUI) programming. Python is a versatile language widely used in both business and game development. The course covers fundamental Python concepts and reviews essential computer science principles, including data types, decision structures, loops, functions, object-oriented programming, and introduces some basic graphics and GUI concepts. It offers a comprehensive foundation for Python programming and its real-world applications.",
+    "prerequisites": "CS/IS 112 or equivalent",
+    "offered": "Course Typically Offered: Spring (Every Other Year)",
+    "transfer_credit": "Transfer Credit: CSU",
+    "status": "Scheduled"
+  },
+  {
+    "course_code": "CS240",
+    "course_name": "Cloud Computing - Fundamentals",
+    "credits": 3,
+    "description": "CS/IS 240 introduces the concept of cloud computing, a transformative shift in IT that transitions from traditional on-premises computing infrastructure to scalable and flexible cloud systems. This course offers a comprehensive foundation in cloud computing technologies, equipping students with the skills to evaluate and assess both the business and technical advantages of cloud computing and cloud applications. Hands-on training is an integral part of the course, with labs included to provide practical experience.",
+    "prerequisites": " CS/IS 190 and CS/IS 197",
+    "offered": "Course Typically Offered: Winter/Spring/Summer/Fall",
+    "transfer_credit": "Transfer Credit:  CSU, UC, USC",
+    "status": "Scheduled"
+  },
+  {
     "course_code": "CS135",
     "course_name": "Programming in C/C++",
     "credits": 3,
@@ -37,7 +57,7 @@
     "prerequisites": "CS/IS 135 or equivalent",
     "offered": "Course Typically Offered: Fall (Every Other Year)",
     "transfer_credit": "Transfer Credit: CSU, UC, USC",
-    "status": "Scheduled"
+    "status": "Not Yet Scheduled"
   },
   {
     "course_code": "CS139",
