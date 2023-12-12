@@ -6,6 +6,7 @@ import {
   ChartOptions,
 } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
+import DegreeRequirements from "../../assets/degree_requirements.png";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -26,12 +27,12 @@ export const data = {
     {
       // Required
       backgroundColor: ["#4B0082", "#9370DB", "#E6E6FA", "#F2F2F2"],
-      data: [4, 4, 0, 9],
+      data: [8, 0, 6, 3],
     },
     {
       // Degree Electives
       backgroundColor: ["#5551FF", "#8A8AFF", "#C9C9FF", "#F2F2F2"],
-      data: [16, 3, 0, 7],
+      data: [19, 0, 6, 0],
     },
   ],
 };
@@ -74,6 +75,11 @@ export default function Chart({ className }: ChartProps) {
         Degree Progress Chart
       </h3>
       <Doughnut data={data} options={donutOptions} />
+      <img
+        alt="Degree Requirements"
+        src={DegreeRequirements}
+        className="mt-12"
+      />
     </div>
   );
 }

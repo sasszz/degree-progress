@@ -17,7 +17,7 @@
     "prerequisites": "Prerequisite: CS/IS 165 or equivalent.",
     "offered": "Course Typically Offered: Spring (Every Other Year).",
     "transfer_credit": "Transfer Credit: CSU, UC, USC.",
-    "status": "Not Yet Scheduled"
+    "status": "Scheduled"
   },
   {
     "course_code": "CS211",
@@ -27,7 +27,7 @@
     "prerequisites": "Prerequisite: CS/IS 135 or equivalent.",
     "offered": "Course Typically Offered: Fall (Every Other Year).",
     "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID COMP 132).",
-    "status": "In Progress"
+    "status": "Completed"
   },
   {
     "course_code": "CS212",
@@ -47,6 +47,6 @@
     "prerequisites": "Prerequisite: CS/IS 112 or equivalent. Recommended Preparation: CS/IS 135 or equivalent.",
     "offered": "Course Typically Offered: Spring (Every Other Year).",
     "transfer_credit": "Transfer Credit: CSU, UC, USC.",
-    "status": "Not Yet Scheduled"
+    "status": "Scheduled"
   }
 ]
