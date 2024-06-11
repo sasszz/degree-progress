@@ -27,17 +27,7 @@
     "prerequisites": "CS/IS 112 or equivalent",
     "offered": "Course Typically Offered: Spring (Every Other Year)",
     "transfer_credit": "Transfer Credit: CSU",
-    "status": "Scheduled"
-  },
-  {
-    "course_code": "CS240",
-    "course_name": "Cloud Computing - Fundamentals",
-    "credits": 3,
-    "description": "CS/IS 240 introduces the concept of cloud computing, a transformative shift in IT that transitions from traditional on-premises computing infrastructure to scalable and flexible cloud systems. This course offers a comprehensive foundation in cloud computing technologies, equipping students with the skills to evaluate and assess both the business and technical advantages of cloud computing and cloud applications. Hands-on training is an integral part of the course, with labs included to provide practical experience.",
-    "prerequisites": " CS/IS 190 and CS/IS 197",
-    "offered": "Course Typically Offered: Winter/Spring/Summer/Fall",
-    "transfer_credit": "Transfer Credit:  CSU, UC, USC",
-    "status": "Scheduled"
+    "status": "Completed"
   },
   {
     "course_code": "CS135",
@@ -50,43 +40,14 @@
     "status": "Completed"
   },
   {
-    "course_code": "CS137",
-    "course_name": "C++ and Advanced Topics",
+    "course_code": "CS/IS 172",
+    "course_name": "UNIX/LINUX Operating System",
     "credits": 4,
-    "description": "CS/IS 137 prepares students for C++ programming in the workplace and other real-world environments. The course focuses on advanced object-oriented programming concepts needed for modern programs, as well as other advanced topics such as templates and generics, files and streams, and operator overloading. Students will have the opportunity to engage in advanced projects within the course's scope. Lecture/Demonstration 4 hours.",
-    "prerequisites": "CS/IS 135 or equivalent",
+    "description": "CS/IS 172 discusses the various features of the UNIX and Linux operating systems. These operating systems are industry standard in modern computer systems. This course will be taught using current Linux distributions on Glendale Community College computers and on student home computers. Lecture/Demonstration 4 hours.",
+    "prerequisites": "None",
     "offered": "Course Typically Offered: Fall (Every Other Year)",
     "transfer_credit": "Transfer Credit: CSU, UC, USC",
-    "status": "Not Yet Scheduled"
-  },
-  {
-    "course_code": "CS139",
-    "course_name": "Java",
-    "credits": 3,
-    "description": "CS/IS 139 is a hands-on course where students work with programs to develop a comprehensive understanding of Java concepts in an interactive environment. The course involves creating and testing stand-alone applications and network applets across various operating systems and hardware platforms. Lecture 2 hours/Laboratory 3 hours.",
-    "prerequisites": "CS/IS 112 or equivalent",
-    "offered": "Course Typically Offered: Fall/Spring",
-    "transfer_credit": "Transfer Credit: CSU, UC, USC",
-    "status": "Not Yet Scheduled"
-  },
-  {
-    "course_code": "MATH103E",
-    "course_name": "Calculus and Analytic Geometry I",
-    "credits": 5,
-    "description": "MATH 103E is the first of a sequence of three courses combining the subject matter of analytic geometry and calculus. Functions and their graphs are studied with special attention to differentiation, limits, rules and integration using various techniques. The calculus of inverse functions and transcendental functions as well as applications of differentiation is also covered. Lecture 5 hours.",
-    "prerequisites": "Placement is based on academic background or satisfactory completion of MATH 110 or 110B.",
-    "offered": "Typically Offered: Winter/Spring/Summer/Fall",
-    "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID MATH 210)",
-    "status": "Completed"
-  },
-  {
-    "course_code": "MATH104E",
-    "course_name": "Calculus and Analytic Geometry II",
-    "credits": 5,
-    "description": "MATH 104E is a study of techniques of integration, indeterminate forms, applications of integration, differential equations, the calculus of parametric equations, polar coordinates, and conic sections, and the study of infinite sequences and series. Lecture 5 hours",
-    "prerequisites": "MATH103E",
-    "offered": "Typically Offered: Winter/Spring/Summer/Fall",
-    "transfer_credit": "Transfer Credit: CSU, UC, USC. (C-ID MATH 220)",
-    "status": "Completed"
-  }
+    "status": "Scheduled"
+}
+
 ]

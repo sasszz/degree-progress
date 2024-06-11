@@ -22,7 +22,12 @@ npm run dev
 firebase login
 npm run build
 firebase init
--> select dist as build folder
+❯◉ Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+? What do you want to use as your public directory? dist
+? Configure as a single-page app (rewrite all urls to /index.html)? (y/N) y
+? Set up automatic builds and deploys with GitHub? (y/N) n
+? File dist/index.html already exists. Overwrite? n
+
 firebase deploy
 ```
 
