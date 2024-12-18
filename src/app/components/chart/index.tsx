@@ -27,7 +27,7 @@ export const data = {
     {
       // Required
       backgroundColor: ["#4B0082", "#9370DB", "#E6E6FA", "#F2F2F2"],
-      data: [14, 0, 3, 0],
+      data: [17, 0, 0, 0],
     },
     {
       // Degree Electives
